@@ -1,4 +1,4 @@
-* {
+    * {
     font-family: Cormorant;
 }
 
@@ -87,20 +87,9 @@ h2 {
     width: 850px;
 }
 
-h2~p {
-    /* box-shadow: 10px 10px 5px magenta, -10px -10px 5px magenta;
-          border: 0; */
-}
-
 .attack li {
     display: block;
 }
-
-
-/* .attack li:nth-last-of-type(2n) {
-    border: 1px solid magenta;
-    width: 50%;
-} */
 
 button:active {
     background-color: magenta;
@@ -130,11 +119,6 @@ p::selection {
     .gallery {
         padding: 8px;
     }
-    /* header {
-        margin: 0 auto;
-        margin-left: 50px;
-        text-align: center;
-    } */
     footer {
         margin: 0 auto;
         width: 100%;
@@ -151,5 +135,7 @@ p::selection {
     }
     .container {
         box-shadow: 10px 5px 8px cyan;
+        
     }
+    header{display: flex;justify-content: space-around;width: 200%;}
 }
